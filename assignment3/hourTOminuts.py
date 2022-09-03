@@ -2,7 +2,7 @@ print('select the desired convertion :')
 choice=int(input('second to hour=1 and hour to second=2 :'))
 
 if choice==1:
-  number=int(input('enter number:'))
+  number=int(input('enter second:'))
   hour=number//3600
   minute=(number%3600)//60
   second=(number%3600)%60
